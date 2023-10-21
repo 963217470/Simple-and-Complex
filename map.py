@@ -1,7 +1,7 @@
 map_queue=[]#存储map的队列
 
 def create_map_queue():
-    map=[[0]*(300//30) for _ in range(300//30)]
+    map=[[0]*(500//50) for _ in range(500//50)]
 
     map[0]=[-1 for i in range(10)]
     map[-1]=[-1 for i in range(10)]
